@@ -1,0 +1,35 @@
+.container {
+  width: 500px;
+  height: 1000px;
+  border: 1px solid red;
+  margin-bottom: 50px;
+}
+
+div.container div {
+  background-color: lightblue;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  font-weight: 700;
+}
+
+.static-example {
+  position: static;
+}
+
+.relative-example {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.fixed-example {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+
+.sticky-example {
+  position: sticky;
+  top: 0px;
+}

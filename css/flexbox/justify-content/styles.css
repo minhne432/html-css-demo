@@ -1,0 +1,33 @@
+.testElement {
+  background-color: yellow;
+  height: 50px;
+  border: solid 2px;
+}
+.button {
+  font-size: large;
+}
+.container {
+  display: flex;
+  height: 90vh; /* Đặt chiều cao của container để dễ dàng thấy sự căn chỉnh */
+  border: 2px solid #000; /* Để dễ thấy container */
+}
+
+.container.center {
+  justify-content: center; /* Căn giữa theo trục chính (ngang) */
+}
+
+.container.start {
+  justify-content: flex-start; /* Căn về phía đầu theo trục chính */
+}
+
+.container.end {
+  justify-content: flex-end; /* Căn về phía cuối theo trục chính */
+}
+
+.container.space-between {
+  justify-content: space-between; /* Căn đều các phần tử với khoảng cách giữa */
+}
+
+.container.space-around {
+  justify-content: space-around; /* Căn đều các phần tử với khoảng cách xung quanh */
+}

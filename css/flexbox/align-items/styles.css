@@ -1,0 +1,51 @@
+.testElement {
+  background-color: yellow;
+  border: solid 2px;
+  line-height: 75px;
+}
+
+#testElement1 {
+  background-color: yellow;
+  height: 50px;
+  border: solid 2px;
+}
+
+.button {
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  height: 90vh; /* Đặt chiều cao của container để dễ dàng thấy sự căn chỉnh */
+  border: 2px solid #000; /* Để dễ thấy container */
+}
+
+.container.center {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.container.start {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.container.end {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+}
+
+.container.stretch {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+}
+
+.container.baseline {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+}
